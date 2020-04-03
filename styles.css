@@ -9,16 +9,16 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #e4e3e1;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: grey;
 }
 a:hover {
-  color: #6633ff;
+  color: skyblue;
 }
 
 /* Section Styles */
@@ -34,16 +34,16 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 500;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
 }
 
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: block;
+  margin-right: auto;
+  color: grey;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: skyblue;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/garden.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,24 +69,24 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 20%;
+  border: 4px solid skyblue;
+  transition: all .3s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.3) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #e4e3e1;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #e4e3e1;
+  color :black;
 }
 .card {
   margin: 30px;
@@ -99,7 +99,10 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: skyblue;
+}
+.card-title {
+  text-align: center;
 }
 
 ul.skills {
@@ -166,6 +169,29 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+.front-end {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 250px;
+  border-radius: 10%;
+  border: 8px solid skyblue;
+}
+.back-end {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 250px;
+  border-radius: 10%;
+  border: 8px solid skyblue;
+}
+
+iframe { 
+  border: 2px solid skyblue;
+  width: 100%;
+  height: 40%;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
